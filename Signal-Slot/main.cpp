@@ -19,3 +19,8 @@ int main(int argc, char *argv[])
 
     return a.exec();
 }
+
+/*
+    Можно выключать соединения между сигналами и слотами
+    QObject::disconnect(sender, signal, receiver, slot);
+*/
